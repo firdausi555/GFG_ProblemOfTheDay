@@ -10,3 +10,4 @@ class Solution:
             curr = (prev * 10 + num * (i + 1)) 
             total = (total + curr) 
             prev = curr
+    return total
